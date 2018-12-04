@@ -1,0 +1,22 @@
+{
+  "specialization": {},
+  "middleware": {
+    "static": {
+      "module": {
+        "arguments": [
+          "path:./.dist"
+        ]
+      }
+    },
+    "router": {
+      "module": {
+        "arguments": [{
+          "directory": "path:./app/controllers"
+        }]
+      }
+    }
+  },
+  "app": {
+    "url": "http://localhost"
+  }
+}
